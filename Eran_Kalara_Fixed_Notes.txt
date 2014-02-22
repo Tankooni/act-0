@@ -1,0 +1,13 @@
+Updates:
+
+Editted the Terrain.
+
+Notes:
+
+For the camera, when you are standing with your back to a wall, such as the cliffside, and you rotate the camera in front of you, you can see through the terrain. 
+
+1. Is this something that has a natural fix once you finish the camera set up?
+
+2. If not, is it an easy fix? Maybe nudge the camera or prevent it from going through terrain?
+
+3. If not, then, uh. I dunno.

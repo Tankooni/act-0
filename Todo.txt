@@ -1,0 +1,8 @@
+input equations for stats
+research maya controls in unity
+fix camera
+	angle up down
+	collision on camera
+attacking, collision on sword
+ai on enemy
+deal with more animation stuff
