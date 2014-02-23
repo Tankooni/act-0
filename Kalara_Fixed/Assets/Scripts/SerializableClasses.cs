@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-#region Classes
-
 [System.Serializable]
 public class Gauges
 {
@@ -38,10 +36,6 @@ public class AdvancedAttributes
     //Residual Attributes
     public int iDmg, iDef, eDmg, eDef, PRE, sensory;
 };
-
-#endregion
-
-#region Enums
 
 public enum ePrimaryStat
 {
@@ -98,5 +92,3 @@ public enum eAccessoryTypes
     Eyeware,
     Bracelet
 }
-
-#endregion
