@@ -12,4 +12,13 @@ public static class MathEx
 
         return rVec;
     }
+
+    public static Vector3 rotateXZ(Vector3 vector, float rAngle) {
+        Vector3 rVec = new Vector3(0, vector.y, 0);
+
+        rVec.x = (float) (vector.x * Math.Sin(rAngle) - vector.z * Math.Cos(rAngle));
+        rVec.y = (float) (vector.x * Math.Cos(rAngle) + vector.z * Math.Sin(rAngle));
+
+        return rVec;
+    }
 }
