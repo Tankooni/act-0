@@ -2097,6 +2097,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb4fadac9f9091d48a3203428274b846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sAggressive:
+    circleRadius: 8
+    runSpeed: 8
+    avgRunTime: 0
+    runDeviation: 0
   sNeutral:
     watchDistance: 15
     aggressiveDistance: 5
