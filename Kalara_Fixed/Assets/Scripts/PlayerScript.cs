@@ -2,9 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(StatSystem))]
 public class PlayerScript : MonoBehaviour
 {
-	public StatSystem stats;
+	private StatSystem stats;
 
     private float curJumpSpeed;
     private Vector3 mLookPos;
@@ -14,6 +15,7 @@ public class PlayerScript : MonoBehaviour
     // Use this for initialization
 	void Start () 
     {
+        stats = this.GetComponent<StatSystem>();
         cc = this.GetComponent<CharacterController>();
         stats.UpdateStats();
 	}

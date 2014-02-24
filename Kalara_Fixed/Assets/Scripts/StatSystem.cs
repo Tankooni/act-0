@@ -11,29 +11,27 @@ public class StatSystem : MonoBehaviour
 	public BaseAttributes ACTUAL_STATS;
 	private int Health, Energy, Ego;
 
-    public int PhysicalTotal;
+    private int PhysicalTotal;
 	private int PhysicalModifier;
 	private int Power, Agility, Fortitude;
 
-    public int IntellectualTotal;
+    private int IntellectualTotal;
 	private int IntellectualModifier;
 	private int Mental, Emotional, Social;
 
-    public int ResidualTotal;
+    private int ResidualTotal;
 	private int ResidualModifier;
 	private int Soul, Invocation, Aura;
 
     public AdvancedAttributes HiddenAttributes {
         get { return _hiddenAttributes;}
     }
-    private AdvancedAttributes _hiddenAttributes;
-
-	// Use this for initialization
-	void Start () 
-	{
-		UpdateStats();
-	}
+    private AdvancedAttributes _hiddenAttributes = new AdvancedAttributes();
 	
+    void Start () {
+        UpdateStats();
+    }
+
 	public void UpdateStats()
 	{
 		PhysicalModifier = PrimaryStat == ePrimaryStat.Physical ? Level : (int)(0.5f * Level);

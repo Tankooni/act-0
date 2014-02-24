@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AI\BaseAI.cs" />
      <Compile Include="Assets\Scripts\AbilityScript.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaAI.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaScript.cs" />
      <Compile Include="Assets\Scripts\Items\AccessoryScript.cs" />
      <Compile Include="Assets\Scripts\Items\ArmorScript.cs" />
      <Compile Include="Assets\Scripts\Items\ItemScript.cs" />
@@ -54,6 +57,9 @@
      <Compile Include="Assets\Scripts\PlayerCameraScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\SerializableClasses.cs" />
+     <Compile Include="Assets\Scripts\StatSystem.cs" />
+     <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
+     <Compile Include="Assets\Scripts\Utils\StateMachine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -63,5 +69,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy FileWidth="120" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy IndentSwitchBody="True" StatementBraceStyle="NextLineShifted2" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><TextStylePolicy FileWidth="120" TabWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
 </Project>
