@@ -12,12 +12,21 @@ public class PlayerScript : MonoBehaviour
 
     private CharacterController cc;
 
+    [SerializeField]
+    private Animator animator;
+
+    private float directionDampTime = 0.25f;
+
     // Use this for initialization
 	void Start () 
     {
         stats = this.GetComponent<StatSystem>();
         cc = this.GetComponent<CharacterController>();
         stats.UpdateStats();
+
+        animator = GetComponentsInChildren<Animator>()[0];
+        if(animator.layerCount >= 2)
+            animator.SetLayerWeight(1, 1);
 	}
 
     void CheckJump()
@@ -76,6 +85,12 @@ public class PlayerScript : MonoBehaviour
         CheckJump();
         ApplyMovement(direction);
         ApplyLookDirection(direction);
+
+        if(animator)
+        {
+            animator.SetFloat("Speed", direction.sqrMagnitude);
+            animator.SetFloat("Direction", direction.x, directionDampTime, Time.deltaTime);
+        }
     }
 
     void FixedUpdate () 
