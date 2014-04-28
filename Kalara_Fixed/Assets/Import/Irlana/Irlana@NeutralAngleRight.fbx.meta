@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: 24793031cdc57b14fb262917d17efb1f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: COG_ctrl
+    100002: COG_grp
+    100004: COG_jnt
+    100006: Controls_grp
+    100008: Eyes_ctrl
+    100010: Eyes_grp
+    100012: GEO_grp
+    100014: HairA_ctrl
+    100016: HairA_grp
+    100018: HairA_jnt
+    100020: HairB_ctrl
+    100022: HairB_grp
+    100024: HairB_jnt
+    100026: HairC_ctrl
+    100028: HairC_grp
+    100030: HairC_jnt
+    100032: HairD_ctrl
+    100034: HairD_grp
+    100036: HairD_jnt
+    100038: HairE_ctrl
+    100040: HairE_grp
+    100042: HairE_jnt
+    100044: HairTip_jnt
+    100046: Head_ctrl
+    100048: Head_grp
+    100050: Head_jnt
+    100052: HeadTip_jnt
+    100054: Hips_ctrl
+    100056: Hips_grp
+    100058: Hips_jnt
+    100060: ikHandle1
+    100062: ikHandle2
+    100064: ikHandle3
+    100066: ikHandle4
+    100068: ikHandle5
+    100070: ikHandle6
+    100072: ikHandle7
+    100074: ikHandle8
+    100076: Irlana:polySurface19
+    100078: //RootNode
+    100080: Jaw_ctrl
+    100082: Jaw_grp
+    100084: Jaw_jnt
+    100086: JawTip_jnt
+    100088: Joints_grp
+    100090: L_Ankle_jnt
+    100092: L_Ball_jnt
+    100094: L_Clav_ctrl
+    100096: L_Clav_grp
+    100098: L_Clav_jnt
+    100100: L_Elbow_ctrl
+    100102: L_Elbow_grp
+    100104: L_Elbow_jnt
+    100106: L_Eye_ctrl
+    100108: L_Eye_grp
+    100110: L_Eye_jnt
+    100112: L_FingersA_jnt
+    100114: L_FingersB_jnt
+    100116: L_FingersTip_jnt
+    100118: L_Foot_ctrl
+    100120: L_Foot_grp
+    100122: L_Hair_ctrl
+    100124: L_Hair_ctrl 1
+    100126: L_Hair_grp
+    100128: L_HairA_jnt
+    100130: L_HairB_jnt
+    100132: L_HairC_jnt
+    100134: L_HairD_jnt
+    100136: L_HairE_jnt
+    100138: L_HairF_jnt
+    100140: L_HairTip_jnt
+    100142: L_Hand_ctrl
+    100144: L_Hand_grp
+    100146: L_Hand_jnt
+    100148: L_Heel_jnt
+    100150: L_Hip_ctrl
+    100152: L_Hip_grp
+    100154: L_Hip_jnt
+    100156: L_Knee_jnt
+    100158: L_Shoulder_ctrl
+    100160: L_Shoulder_grp
+    100162: L_Shoulder_jnt
+    100164: L_ThumbA_jnt
+    100166: L_ThumbB_jnt
+    100168: L_ThumbC_jnt
+    100170: L_ThumbTip_jnt
+    100172: L_Toe_jnt
+    100174: L_Wrist_ctrl
+    100176: L_Wrist_grp
+    100178: L_Wrist_jnt
+    100180: Main_ctrl
+    100182: NeckA_ctrl
+    100184: NeckA_grp
+    100186: NeckA_jnt
+    100188: NeckB_ctrl
+    100190: NeckB_grp
+    100192: NeckB_jnt
+    100194: polySurface20
+    100196: polySurface21
+    100198: polySurface22
+    100200: polySurface23
+    100202: polySurface24
+    100204: polySurface25
+    100206: polySurface26
+    100208: polySurface27
+    100210: polySurface28
+    100212: polySurface29
+    100214: pSphere1
+    100216: pSphere2
+    100218: R_Ankle_jnt
+    100220: R_Ball_jnt
+    100222: R_Clav_ctrl
+    100224: R_Clav_grp
+    100226: R_Clav_jnt
+    100228: R_Elbow_ctrl
+    100230: R_Elbow_grp
+    100232: R_Elbow_jnt
+    100234: R_Eye_ctrl
+    100236: R_Eye_grp
+    100238: R_Eye_jnt
+    100240: R_FingersA_jnt
+    100242: R_FingersB_jnt
+    100244: R_FingersTip_jnt
+    100246: R_Foot_ctrl
+    100248: R_Foot_grp
+    100250: R_Hair_grp
+    100252: R_HairA_jnt
+    100254: R_HairB_jnt
+    100256: R_HairC_jnt
+    100258: R_HairD_jnt
+    100260: R_HairE_jnt
+    100262: R_HairF_jnt
+    100264: R_HairTip_jnt
+    100266: R_Hand_ctrl
+    100268: R_Hand_grp
+    100270: R_Hand_jnt
+    100272: R_Heel_jnt
+    100274: R_Hip_ctrl
+    100276: R_Hip_grp
+    100278: R_Hip_jnt
+    100280: R_Knee_jnt
+    100282: R_Shoulder_ctrl
+    100284: R_Shoulder_grp
+    100286: R_Shoulder_jnt
+    100288: R_ThumbA_jnt
+    100290: R_ThumbB_jnt
+    100292: R_ThumbC_jnt
+    100294: R_ThumbTip_jnt
+    100296: R_Toe_jnt
+    100298: R_Wrist_ctrl
+    100300: R_Wrist_grp
+    100302: R_Wrist_jnt
+    100304: Shoulders_ctrl
+    100306: Shoulders_grp
+    100308: Shoulders_jnt
+    100310: SpineA_ctrl
+    100312: SpineA_grp
+    100314: SpineA_jnt
+    100316: SpineB_ctrl
+    100318: SpineB_grp
+    100320: SpineB_jnt
+    100322: SpineC_ctrl
+    100324: SpineC_grp
+    100326: SpineC_jnt
+    100328: SpineD_ctrl
+    100330: SpineD_grp
+    100332: SpineD_jnt
+    100334: Sword_ctrl
+    100336: Sword_grp
+    100338: Sword_jnt
+    400000: COG_ctrl
+    400002: COG_grp
+    400004: COG_jnt
+    400006: Controls_grp
+    400008: Eyes_ctrl
+    400010: Eyes_grp
+    400012: GEO_grp
+    400014: HairA_ctrl
+    400016: HairA_grp
+    400018: HairA_jnt
+    400020: HairB_ctrl
+    400022: HairB_grp
+    400024: HairB_jnt
+    400026: HairC_ctrl
+    400028: HairC_grp
+    400030: HairC_jnt
+    400032: HairD_ctrl
+    400034: HairD_grp
+    400036: HairD_jnt
+    400038: HairE_ctrl
+    400040: HairE_grp
+    400042: HairE_jnt
+    400044: HairTip_jnt
+    400046: Head_ctrl
+    400048: Head_grp
+    400050: Head_jnt
+    400052: HeadTip_jnt
+    400054: Hips_ctrl
+    400056: Hips_grp
+    400058: Hips_jnt
+    400060: ikHandle1
+    400062: ikHandle2
+    400064: ikHandle3
+    400066: ikHandle4
+    400068: ikHandle5
+    400070: ikHandle6
+    400072: ikHandle7
+    400074: ikHandle8
+    400076: Irlana:polySurface19
+    400078: //RootNode
+    400080: Jaw_ctrl
+    400082: Jaw_grp
+    400084: Jaw_jnt
+    400086: JawTip_jnt
+    400088: Joints_grp
+    400090: L_Ankle_jnt
+    400092: L_Ball_jnt
+    400094: L_Clav_ctrl
+    400096: L_Clav_grp
+    400098: L_Clav_jnt
+    400100: L_Elbow_ctrl
+    400102: L_Elbow_grp
+    400104: L_Elbow_jnt
+    400106: L_Eye_ctrl
+    400108: L_Eye_grp
+    400110: L_Eye_jnt
+    400112: L_FingersA_jnt
+    400114: L_FingersB_jnt
+    400116: L_FingersTip_jnt
+    400118: L_Foot_ctrl
+    400120: L_Foot_grp
+    400122: L_Hair_ctrl
+    400124: L_Hair_ctrl 1
+    400126: L_Hair_grp
+    400128: L_HairA_jnt
+    400130: L_HairB_jnt
+    400132: L_HairC_jnt
+    400134: L_HairD_jnt
+    400136: L_HairE_jnt
+    400138: L_HairF_jnt
+    400140: L_HairTip_jnt
+    400142: L_Hand_ctrl
+    400144: L_Hand_grp
+    400146: L_Hand_jnt
+    400148: L_Heel_jnt
+    400150: L_Hip_ctrl
+    400152: L_Hip_grp
+    400154: L_Hip_jnt
+    400156: L_Knee_jnt
+    400158: L_Shoulder_ctrl
+    400160: L_Shoulder_grp
+    400162: L_Shoulder_jnt
+    400164: L_ThumbA_jnt
+    400166: L_ThumbB_jnt
+    400168: L_ThumbC_jnt
+    400170: L_ThumbTip_jnt
+    400172: L_Toe_jnt
+    400174: L_Wrist_ctrl
+    400176: L_Wrist_grp
+    400178: L_Wrist_jnt
+    400180: Main_ctrl
+    400182: NeckA_ctrl
+    400184: NeckA_grp
+    400186: NeckA_jnt
+    400188: NeckB_ctrl
+    400190: NeckB_grp
+    400192: NeckB_jnt
+    400194: polySurface20
+    400196: polySurface21
+    400198: polySurface22
+    400200: polySurface23
+    400202: polySurface24
+    400204: polySurface25
+    400206: polySurface26
+    400208: polySurface27
+    400210: polySurface28
+    400212: polySurface29
+    400214: pSphere1
+    400216: pSphere2
+    400218: R_Ankle_jnt
+    400220: R_Ball_jnt
+    400222: R_Clav_ctrl
+    400224: R_Clav_grp
+    400226: R_Clav_jnt
+    400228: R_Elbow_ctrl
+    400230: R_Elbow_grp
+    400232: R_Elbow_jnt
+    400234: R_Eye_ctrl
+    400236: R_Eye_grp
+    400238: R_Eye_jnt
+    400240: R_FingersA_jnt
+    400242: R_FingersB_jnt
+    400244: R_FingersTip_jnt
+    400246: R_Foot_ctrl
+    400248: R_Foot_grp
+    400250: R_Hair_grp
+    400252: R_HairA_jnt
+    400254: R_HairB_jnt
+    400256: R_HairC_jnt
+    400258: R_HairD_jnt
+    400260: R_HairE_jnt
+    400262: R_HairF_jnt
+    400264: R_HairTip_jnt
+    400266: R_Hand_ctrl
+    400268: R_Hand_grp
+    400270: R_Hand_jnt
+    400272: R_Heel_jnt
+    400274: R_Hip_ctrl
+    400276: R_Hip_grp
+    400278: R_Hip_jnt
+    400280: R_Knee_jnt
+    400282: R_Shoulder_ctrl
+    400284: R_Shoulder_grp
+    400286: R_Shoulder_jnt
+    400288: R_ThumbA_jnt
+    400290: R_ThumbB_jnt
+    400292: R_ThumbC_jnt
+    400294: R_ThumbTip_jnt
+    400296: R_Toe_jnt
+    400298: R_Wrist_ctrl
+    400300: R_Wrist_grp
+    400302: R_Wrist_jnt
+    400304: Shoulders_ctrl
+    400306: Shoulders_grp
+    400308: Shoulders_jnt
+    400310: SpineA_ctrl
+    400312: SpineA_grp
+    400314: SpineA_jnt
+    400316: SpineB_ctrl
+    400318: SpineB_grp
+    400320: SpineB_jnt
+    400322: SpineC_ctrl
+    400324: SpineC_grp
+    400326: SpineC_jnt
+    400328: SpineD_ctrl
+    400330: SpineD_grp
+    400332: SpineD_jnt
+    400334: Sword_ctrl
+    400336: Sword_grp
+    400338: Sword_jnt
+    4300000: pSphere1
+    4300002: polySurface29
+    4300004: polySurface28
+    4300006: polySurface27
+    4300008: polySurface26
+    4300010: polySurface25
+    4300012: polySurface24
+    4300014: polySurface23
+    4300016: polySurface22
+    4300018: polySurface21
+    4300020: polySurface20
+    4300022: pSphere2
+    4300024: Irlana:polySurface19
+    7400000: NeutralAngleRight
+    9500000: //RootNode
+    13700000: Irlana:polySurface19
+    13700002: polySurface20
+    13700004: polySurface21
+    13700006: polySurface22
+    13700008: polySurface23
+    13700010: polySurface24
+    13700012: polySurface25
+    13700014: polySurface26
+    13700016: polySurface27
+    13700018: polySurface28
+    13700020: polySurface29
+    13700022: pSphere1
+    13700024: pSphere2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: NeutralAngleRight
+      takeName: Take 001
+      firstFrame: 725
+      lastFrame: 794
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO_grp
+        weight: 1
+      - path: GEO_grp/Irlana:polySurface19
+        weight: 1
+      - path: GEO_grp/polySurface20
+        weight: 1
+      - path: GEO_grp/polySurface21
+        weight: 1
+      - path: GEO_grp/polySurface22
+        weight: 1
+      - path: GEO_grp/polySurface23
+        weight: 1
+      - path: GEO_grp/polySurface24
+        weight: 1
+      - path: GEO_grp/polySurface25
+        weight: 1
+      - path: GEO_grp/polySurface26
+        weight: 1
+      - path: GEO_grp/polySurface27
+        weight: 1
+      - path: GEO_grp/polySurface28
+        weight: 1
+      - path: GEO_grp/polySurface29
+        weight: 1
+      - path: GEO_grp/pSphere1
+        weight: 1
+      - path: GEO_grp/pSphere2
+        weight: 1
+      - path: Main_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp/Hips_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp/Hips_ctrl/L_Hip_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp/Hips_ctrl/L_Hip_grp/L_Hip_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp/Hips_ctrl/R_Hip_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/Hips_grp/Hips_ctrl/R_Hip_grp/R_Hip_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp/L_Elbow_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp/L_Elbow_ctrl/L_Wrist_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp/L_Elbow_ctrl/L_Wrist_grp/L_Wrist_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp/L_Elbow_ctrl/L_Wrist_grp/L_Wrist_ctrl/L_Hand_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/L_Clav_grp/L_Clav_ctrl/L_Shoulder_grp/L_Shoulder_ctrl/L_Elbow_grp/L_Elbow_ctrl/L_Wrist_grp/L_Wrist_ctrl/L_Hand_grp/L_Hand_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp/Eyes_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp/Eyes_ctrl/L_Eye_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp/Eyes_ctrl/L_Eye_grp/L_Eye_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp/Eyes_ctrl/R_Eye_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Eyes_grp/Eyes_ctrl/R_Eye_grp/R_Eye_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp/HairC_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp/HairC_ctrl/HairD_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp/HairC_ctrl/HairD_grp/HairD_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp/HairC_ctrl/HairD_grp/HairD_ctrl/HairE_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/HairA_grp/HairA_ctrl/HairB_grp/HairB_ctrl/HairC_grp/HairC_ctrl/HairD_grp/HairD_ctrl/HairE_grp/HairE_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Jaw_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/Jaw_grp/Jaw_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/L_Hair_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/L_Hair_grp/L_Hair_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/L_Hair_grp/L_Hair_ctrl/ikHandle7
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/R_Hair_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/R_Hair_grp/L_Hair_ctrl
+          1
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/NeckA_grp/NeckA_ctrl/NeckB_grp/NeckB_ctrl/Head_grp/Head_ctrl/R_Hair_grp/L_Hair_ctrl
+          1/ikHandle8
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp/R_Wrist_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp/R_Wrist_ctrl/R_Hand_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp/R_Wrist_ctrl/R_Hand_grp/R_Hand_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp/R_Wrist_ctrl/R_Hand_grp/R_Hand_ctrl/Sword_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/COG_grp/COG_ctrl/SpineA_grp/SpineA_ctrl/SpineB_grp/SpineB_ctrl/SpineC_grp/SpineC_ctrl/SpineD_grp/SpineD_ctrl/Shoulders_grp/Shoulders_ctrl/R_Clav_grp/R_Clav_ctrl/R_Shoulder_grp/R_Shoulder_ctrl/R_Elbow_grp/R_Elbow_ctrl/R_Wrist_grp/R_Wrist_ctrl/R_Hand_grp/R_Hand_ctrl/Sword_grp/Sword_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/L_Foot_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/L_Foot_grp/L_Foot_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/L_Foot_grp/L_Foot_ctrl/ikHandle1
+        weight: 1
+      - path: Main_ctrl/Controls_grp/L_Foot_grp/L_Foot_ctrl/ikHandle3
+        weight: 1
+      - path: Main_ctrl/Controls_grp/L_Foot_grp/L_Foot_ctrl/ikHandle4
+        weight: 1
+      - path: Main_ctrl/Controls_grp/R_Foot_grp
+        weight: 1
+      - path: Main_ctrl/Controls_grp/R_Foot_grp/R_Foot_ctrl
+        weight: 1
+      - path: Main_ctrl/Controls_grp/R_Foot_grp/R_Foot_ctrl/ikHandle2
+        weight: 1
+      - path: Main_ctrl/Controls_grp/R_Foot_grp/R_Foot_ctrl/ikHandle5
+        weight: 1
+      - path: Main_ctrl/Controls_grp/R_Foot_grp/R_Foot_ctrl/ikHandle6
+        weight: 1
+      - path: Main_ctrl/Joints_grp
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt/L_Knee_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt/L_Knee_jnt/L_Ankle_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt/L_Knee_jnt/L_Ankle_jnt/L_Heel_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt/L_Knee_jnt/L_Ankle_jnt/L_Heel_jnt/L_Ball_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/L_Hip_jnt/L_Knee_jnt/L_Ankle_jnt/L_Heel_jnt/L_Ball_jnt/L_Toe_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt/R_Knee_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt/R_Knee_jnt/R_Ankle_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt/R_Knee_jnt/R_Ankle_jnt/R_Heel_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt/R_Knee_jnt/R_Ankle_jnt/R_Heel_jnt/R_Ball_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/Hips_jnt/R_Hip_jnt/R_Knee_jnt/R_Ankle_jnt/R_Heel_jnt/R_Ball_jnt/R_Toe_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_FingersA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_FingersA_jnt/L_FingersB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_FingersA_jnt/L_FingersB_jnt/L_FingersTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_ThumbA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_ThumbA_jnt/L_ThumbB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_ThumbA_jnt/L_ThumbB_jnt/L_ThumbC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/L_Clav_jnt/L_Shoulder_jnt/L_Elbow_jnt/L_Wrist_jnt/L_Hand_jnt/L_ThumbA_jnt/L_ThumbB_jnt/L_ThumbC_jnt/L_ThumbTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt/HairB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt/HairB_jnt/HairC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt/HairB_jnt/HairC_jnt/HairD_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt/HairB_jnt/HairC_jnt/HairD_jnt/HairE_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/HairA_jnt/HairB_jnt/HairC_jnt/HairD_jnt/HairE_jnt/HairTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_Eye_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt/L_HairC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt/L_HairC_jnt/L_HairD_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt/L_HairC_jnt/L_HairD_jnt/L_HairE_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt/L_HairC_jnt/L_HairD_jnt/L_HairE_jnt/L_HairF_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/L_HairA_jnt/L_HairB_jnt/L_HairC_jnt/L_HairD_jnt/L_HairE_jnt/L_HairF_jnt/L_HairTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_Eye_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt/R_HairC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt/R_HairC_jnt/R_HairD_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt/R_HairC_jnt/R_HairD_jnt/R_HairE_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt/R_HairC_jnt/R_HairD_jnt/R_HairE_jnt/R_HairF_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/HeadTip_jnt/R_HairA_jnt/R_HairB_jnt/R_HairC_jnt/R_HairD_jnt/R_HairE_jnt/R_HairF_jnt/R_HairTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/Jaw_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/NeckA_jnt/NeckB_jnt/Head_jnt/Jaw_jnt/JawTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_FingersA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_FingersA_jnt/R_FingersB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_FingersA_jnt/R_FingersB_jnt/R_FingersTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_ThumbA_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_ThumbA_jnt/R_ThumbB_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_ThumbA_jnt/R_ThumbB_jnt/R_ThumbC_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/R_ThumbA_jnt/R_ThumbB_jnt/R_ThumbC_jnt/R_ThumbTip_jnt
+        weight: 1
+      - path: Main_ctrl/Joints_grp/COG_jnt/SpineA_jnt/SpineB_jnt/SpineC_jnt/SpineD_jnt/Shoulders_jnt/R_Clav_jnt/R_Shoulder_jnt/R_Elbow_jnt/R_Wrist_jnt/R_Hand_jnt/Sword_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0250000004
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
