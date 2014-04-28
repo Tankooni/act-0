@@ -153,7 +153,7 @@ public class HydriaAI : BaseAI
             void IState.UpdateState() {
                 //find a new place to walk to
                 Vector2 rand2dVec = (MathEx.GenUnitVec2() * parent.wanderRadius);
-                Debug.Log(rand2dVec);
+                //Debug.Log(rand2dVec);
                 parent.targetDestination = parent.startingPosition + new Vector3(rand2dVec.x, 0 ,rand2dVec.y);
                 parent.currentTask.ChangeState("walking");
             }

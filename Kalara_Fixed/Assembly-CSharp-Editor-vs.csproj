@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{10E8A282-3577-3E9C-53CE-CA38F62717AC}</ProjectGuid>
+	<ProjectGuid>{9AEF4150-E427-D677-9BD6-450B92A281F2}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,22 +46,29 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AI\BaseAI.cs" />
-     <Compile Include="Assets\Scripts\AbilityScript.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaAI.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaScript.cs" />
-     <Compile Include="Assets\Scripts\Items\AccessoryScript.cs" />
-     <Compile Include="Assets\Scripts\Items\ArmorScript.cs" />
-     <Compile Include="Assets\Scripts\Items\ItemScript.cs" />
-     <Compile Include="Assets\Scripts\Items\WeaponScript.cs" />
-     <Compile Include="Assets\Scripts\PlayerCameraScript.cs" />
-     <Compile Include="Assets\Scripts\PlayerCameraScriptOld.cs" />
-     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <Compile Include="Assets\Scripts\RigidbodyPlayerController.cs" />
-     <Compile Include="Assets\Scripts\SerializableClasses.cs" />
-     <Compile Include="Assets\Scripts\StatSystem.cs" />
-     <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
-     <Compile Include="Assets\Scripts\Utils\StateMachine.cs" />
+     <Compile Include="Assets\Editor\CurvesTransfer.cs" />
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Utilities\Working\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{10E8A282-3577-3E9C-53CE-CA38F62717AC}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -71,6 +78,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy FileWidth="120" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy IndentSwitchBody="True" StatementBraceStyle="NextLineShifted2" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><TextStylePolicy FileWidth="120" TabWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /></Policies></Properties></MonoDevelop></ProjectExtensions>
-
+  
 </Project>

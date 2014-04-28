@@ -19,7 +19,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Vertical
     descriptiveName: 
@@ -35,7 +35,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Fire1
     descriptiveName: 
@@ -51,7 +51,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Fire2
     descriptiveName: 
@@ -67,7 +67,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Fire3
     descriptiveName: 
@@ -83,7 +83,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Jump
     descriptiveName: 
@@ -99,7 +99,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Mouse X
     descriptiveName: 
@@ -115,7 +115,7 @@ InputManager:
     invert: 0
     type: 1
     axis: 0
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Mouse Y
     descriptiveName: 
@@ -131,7 +131,7 @@ InputManager:
     invert: 0
     type: 1
     axis: 1
-    joyNum: 0
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Mouse ScrollWheel
     descriptiveName: 
@@ -243,4 +243,4 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 0
+    joyNum: 1

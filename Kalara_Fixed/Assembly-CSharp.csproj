@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\PlayerCameraScript.cs" />
      <Compile Include="Assets\Scripts\PlayerCameraScriptOld.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\RigidbodyPlayerController.cs" />
      <Compile Include="Assets\Scripts\SerializableClasses.cs" />
      <Compile Include="Assets\Scripts\StatSystem.cs" />
      <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
