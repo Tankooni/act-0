@@ -92,7 +92,7 @@ public class PlayerScript : MonoBehaviour
             //Quaternion rotation = Quaternion.LookRotation(mLookPos - transform.position);
             //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 6.0f);
 
-        
+            
         }
     }
 
