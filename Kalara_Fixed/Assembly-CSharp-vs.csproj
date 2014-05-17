@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\RigidbodyPlayerController.cs" />
      <Compile Include="Assets\Scripts\SerializableClasses.cs" />
      <Compile Include="Assets\Scripts\StatSystem.cs" />
+     <Compile Include="Assets\Scripts\TestBlob\BlobMovementStateMachine.cs" />
+     <Compile Include="Assets\Scripts\TestBlob\Bubbles\RiseAndDestroy.cs" />
      <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
      <Compile Include="Assets\Scripts\Utils\StateMachine.cs" />
   </ItemGroup>
