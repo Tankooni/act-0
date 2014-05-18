@@ -12,7 +12,7 @@ public class BlobMovementStateMachine : MonoBehaviour
         MyTransform = transform;
         while(true)
         {
-            yield return new WaitForSeconds(.1f);
+            yield return new WaitForSeconds(0);
             if(IsActive)
             {
                 Transform spawnedObject = (Transform)Instantiate(ActivePrfab, MyTransform.position + MyTransform.up, MyTransform.rotation);
