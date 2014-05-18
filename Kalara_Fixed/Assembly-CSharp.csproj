@@ -60,8 +60,13 @@
      <Compile Include="Assets\Scripts\RigidbodyPlayerController.cs" />
      <Compile Include="Assets\Scripts\SerializableClasses.cs" />
      <Compile Include="Assets\Scripts\StatSystem.cs" />
-     <Compile Include="Assets\Scripts\TestBlob\BlobMovementStateMachine.cs" />
-     <Compile Include="Assets\Scripts\TestBlob\Bubbles\RiseAndDestroy.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\AdjustForwardToPointToCamera.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\BlobMovementStateMachine.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\EnemyMood.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\LookTrigger.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\MoodIndicator.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\PlayerAnimStateMachine.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\RiseAndDestroy.cs" />
      <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
      <Compile Include="Assets\Scripts\Utils\StateMachine.cs" />
   </ItemGroup>
