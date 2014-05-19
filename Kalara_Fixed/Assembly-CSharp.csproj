@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\AbilityScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaAI.cs" />
      <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaScript.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\States\StateAggressive.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\States\StateNeutral.cs" />
      <Compile Include="Assets\Scripts\Items\AccessoryScript.cs" />
      <Compile Include="Assets\Scripts\Items\ArmorScript.cs" />
      <Compile Include="Assets\Scripts\Items\ItemScript.cs" />
