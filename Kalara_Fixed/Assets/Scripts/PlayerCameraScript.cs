@@ -26,7 +26,8 @@ public class PlayerCameraScript : MonoBehaviour
 	void LateUpdate()
 	{
         var targetPos2D = PositionAlongLine(followedPlayerScript.transform.position, transform.position, awayDistance);
-        targetPos =  new Vector3(targetPos2D.x, followedPlayerScript.transform.position.y + awayDistance, targetPos2D.y);
+        targetPos =  new Vector3(targetPos2D.x, followedPlayerScript.transform.position.y + upDistance, targetPos2D.y);
+        Debug.Log(followedPlayerScript.transform.position);
         //Debug.Log(targetPos2D);
         //targetPos = followedPlayerScript.transform.position + followedPlayerScript.transform.up * upDistance - followedPlayerScript.transform.forward * awayDistance;
 //		targetPos.position = followedPlayerScript.transform.position + Vector3.up * upDistance - followedPlayerScript.transform.forward * awayDistance;

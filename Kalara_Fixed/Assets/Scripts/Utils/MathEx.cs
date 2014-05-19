@@ -21,4 +21,12 @@ public static class MathEx
 
         return rVec;
     }
+
+    //horz and vert are values between -1 and 1 which denote the x and y of a point in a 2d plane.
+    //this function will return the unit vector pointing to the point.
+    public static Vector2 RangeToVector2(float horz, float vert) {
+        Vector2 vec = new Vector2(horz, vert);
+        vec.Normalize();
+        return vec;
+    }
 }
