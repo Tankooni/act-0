@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Utilities/Working/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Utilities/Working/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\AbilityScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaAI.cs" />
      <Compile Include="Assets\Scripts\Enemies\Hydria\HydriaScript.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\States\StateAggressive.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Hydria\States\StateNeutral.cs" />
      <Compile Include="Assets\Scripts\Items\AccessoryScript.cs" />
      <Compile Include="Assets\Scripts\Items\ArmorScript.cs" />
      <Compile Include="Assets\Scripts\Items\ItemScript.cs" />
@@ -60,9 +62,13 @@
      <Compile Include="Assets\Scripts\RigidbodyPlayerController.cs" />
      <Compile Include="Assets\Scripts\SerializableClasses.cs" />
      <Compile Include="Assets\Scripts\StatSystem.cs" />
-     <Compile Include="Assets\Scripts\TestBlob\BlobMovementStateMachine.cs" />
-     <Compile Include="Assets\Scripts\TestBlob\Bubbles\RiseAndDestroy.cs" />
-     <Compile Include="Assets\Scripts\TestBlob\ReversedCameraDirection.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\AdjustForwardToPointToCamera.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\BlobMovementStateMachine.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\EnemyMood.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\LookTrigger.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\MoodIndicator.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\PlayerAnimStateMachine.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\RiseAndDestroy.cs" />
      <Compile Include="Assets\Scripts\Utils\MathEx.cs" />
      <Compile Include="Assets\Scripts\Utils\StateMachine.cs" />
   </ItemGroup>
