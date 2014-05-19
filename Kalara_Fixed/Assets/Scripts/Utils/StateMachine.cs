@@ -1,23 +1,23 @@
 using System;
 using System.Collections.Generic;
 
-public interface IState {
-    void EnterState();
-    void UpdateState();
-    void LeaveState();
+public class State {
+    public virtual void EnterState(){}
+    public virtual void UpdateState(){}
+    public virtual void LeaveState(){}
 }
 
 public class StateMachine
 {
-    private Dictionary<string, IState> states = new Dictionary<string, IState>();
+    private Dictionary<string, State> states = new Dictionary<string, State>();
     private string currentState;
 
     public StateMachine() {}
 
-    public void AddState (string name, IState stateobj) {
+    public void AddState (string name, State stateobj) {
         states.Add(name, stateobj);
     }
-    public void AddState(KeyValuePair<string, IState>[] stateList) {
+    public void AddState(KeyValuePair<string, State>[] stateList) {
         foreach(var state in stateList) {
             states.Add(state.Key, state.Value);
         }
