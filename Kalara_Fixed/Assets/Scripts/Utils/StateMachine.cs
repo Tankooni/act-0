@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 
 public interface IState {
+    void EnterState();
     void UpdateState();
+    void LeaveState();
 }
 
 public class StateMachine
@@ -26,7 +28,13 @@ public class StateMachine
     }
 
     public void ChangeState(string state) {
-        currentState = state;
+        if(currentState != null) {
+            states[currentState].LeaveState();
+            currentState = state;
+            states[currentState].EnterState();
+        } else {
+            currentState = state;
+        }
     }
 
     public void Update () {

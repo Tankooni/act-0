@@ -89,6 +89,9 @@ public class HydriaAI : BaseAI
 
                 parent.parent.transform.position += movementVec;
             }
+
+            void IState.EnterState() {}
+            void IState.LeaveState() {}
         }
 
         public class StateLunge {
@@ -98,6 +101,9 @@ public class HydriaAI : BaseAI
         public class StateBackoff {
 
         }
+
+        void IState.EnterState() {}
+        void IState.LeaveState() {}
     }
 
     [System.Serializable]
@@ -157,6 +163,9 @@ public class HydriaAI : BaseAI
                 parent.targetDestination = parent.startingPosition + new Vector3(rand2dVec.x, 0 ,rand2dVec.y);
                 parent.currentTask.ChangeState("walking");
             }
+
+            void IState.EnterState() {}
+            void IState.LeaveState() {}
         }
         [System.Serializable]
         public class StateWatching : IState {
@@ -178,6 +187,9 @@ public class HydriaAI : BaseAI
                 parent.parent.transform.LookAt(parent.parent.player.transform.position);
                 //growl or whatever
             }
+
+            void IState.EnterState() {}
+            void IState.LeaveState() {}
         }
         [System.Serializable]
         public class StateWalking : IState {
@@ -213,7 +225,12 @@ public class HydriaAI : BaseAI
                     parent.parent.transform.position += movementVector;
                 }
             }
+            void IState.EnterState() {}
+            void IState.LeaveState() {}
         }
+
+        void IState.EnterState() {}
+        void IState.LeaveState() {}
     }
 
     [System.Serializable]
@@ -230,6 +247,9 @@ public class HydriaAI : BaseAI
         void IState.UpdateState() {
 
         }
+
+        void IState.EnterState() {}
+        void IState.LeaveState() {}
     }
 }
 
