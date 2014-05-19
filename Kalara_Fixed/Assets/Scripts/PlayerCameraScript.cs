@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerCameraScript : MonoBehaviour
 {
-	public float awayDistance = 5;
-	public float upDistance = 3;
+	public float awayDistance = 6;
+	public float upDistance = 2;
 	public float smoothJazz = 10;
 	public Vector3 targetPos;
 	public Transform FollowTarget;
