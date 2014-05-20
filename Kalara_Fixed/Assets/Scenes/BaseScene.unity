@@ -3199,7 +3199,7 @@ Transform:
   m_PrefabInternal: {fileID: 1555639629}
   m_GameObject: {fileID: 1108260798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.360106468, y: 1.59591866, z: 2.83401895}
+  m_LocalPosition: {x: .112699509, y: 1.59591866, z: 2.83401895}
   m_LocalScale: {x: 1, y: 1.20000005, z: 1}
   m_Children:
   - {fileID: 1003350010}
@@ -3222,7 +3222,7 @@ MonoBehaviour:
     Strength: 20
     Muscle: 0
     Flexibility: 0
-    Speed: 20
+    Speed: 15
     Toughness: 0
     Endurance: 20
     Intelligence: 0
@@ -4225,9 +4225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46da42eb1396584e84c2fcd7b919458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  awayDistance: 5
-  upDistance: 3
-  smoothJazz: 7
   targetPos: {x: 0, y: 0, z: 0}
   FollowTarget: {fileID: 1108260803}
 --- !u!1 &1470044896
@@ -4503,7 +4500,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c0124023dedc31e48a13f37ff33a5f3f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.360106468
+      value: .112699509
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c0124023dedc31e48a13f37ff33a5f3f, type: 2}
       propertyPath: m_LocalPosition.y

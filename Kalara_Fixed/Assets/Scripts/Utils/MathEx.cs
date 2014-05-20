@@ -15,9 +15,10 @@ public static class MathEx
 
     public static Vector3 rotateXZ(Vector3 vector, float rAngle) {
         Vector3 rVec = new Vector3(0, vector.y, 0);
+        rAngle *= Mathf.Deg2Rad;
 
-        rVec.x = (float) (vector.x * Math.Sin(rAngle) - vector.z * Math.Cos(rAngle));
-        rVec.y = (float) (vector.x * Math.Cos(rAngle) + vector.z * Math.Sin(rAngle));
+        rVec.x = (float) (vector.x * Mathf.Cos(rAngle) - vector.z * Math.Sin(rAngle));
+        rVec.z = (float) (vector.x * Mathf.Sin(rAngle) + vector.z * Math.Cos(rAngle));
 
         return rVec;
     }
@@ -27,6 +28,7 @@ public static class MathEx
     public static Vector2 RangeToVector2(float horz, float vert) {
         Vector2 vec = new Vector2(horz, vert);
         vec.Normalize();
+
         return vec;
     }
 }
