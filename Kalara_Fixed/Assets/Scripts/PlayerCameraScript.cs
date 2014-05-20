@@ -3,9 +3,9 @@ using System.Collections;
 
 public class PlayerCameraScript : MonoBehaviour
 {
-	public float awayDistance = 6;
-	public float upDistance = 2;
-	public float smoothJazz = 10;
+    private float cameraDistance = 6;
+	private float upDistance = 1;
+    private float smoothJazz = 10;
 	public Vector3 targetPos;
 	public Transform FollowTarget;
 	private PlayerScript followedPlayerScript;
@@ -25,55 +25,34 @@ public class PlayerCameraScript : MonoBehaviour
 
 	void LateUpdate()
 	{
-        var targetPos2D = PositionAlongLine(followedPlayerScript.transform.position, transform.position, awayDistance);
-        targetPos =  new Vector3(targetPos2D.x, followedPlayerScript.transform.position.y + upDistance, targetPos2D.y);
-        Debug.Log(followedPlayerScript.transform.position);
-        //Debug.Log(targetPos2D);
-        //targetPos = followedPlayerScript.transform.position + followedPlayerScript.transform.up * upDistance - followedPlayerScript.transform.forward * awayDistance;
-//		targetPos.position = followedPlayerScript.transform.position + Vector3.up * upDistance - followedPlayerScript.transform.forward * awayDistance;
-//		Debug.DrawRay(FollowTarget.position, Vector3.up * upDistance, Color.red);
-//		Debug.DrawRay(FollowTarget.position, -FollowTarget.forward * awayDistance, Color.blue);
-		//Debug.DrawLine(FollowTarget.position, targetPos, Color.magenta);
+        Vector3 targetPos;
 
-        transform.position = /*Vector3.Lerp(transform.position, */targetPos/*, Time.deltaTime * smoothJazz)*/;
+        //center the camera if the button for it is pressed
+        if(Input.GetButton("CameraFix")) {
+            targetPos = -followedPlayerScript.transform.forward;
+            targetPos.Normalize();
+        } else {
+            //find the unit vector in the direction the camera should be
+            targetPos = this.transform.position - followedPlayerScript.transform.position;
+            targetPos.Normalize();
 
+            //rotate the vector based on user's camera input (ei. right stick)
+            float horzCameraInput = Input.GetAxis("RightHorizontal");
+            if(Mathf.Abs(horzCameraInput) > .3) {
+                targetPos = MathEx.rotateXZ(targetPos, -horzCameraInput * 30);
+            }
+        }
+
+        targetPos *= cameraDistance;
+
+        //reference the new camera position from the player and camera height
+        targetPos += followedPlayerScript.transform.position;
+        targetPos.y = followedPlayerScript.transform.position.y + upDistance;
+
+        //rotate the camera based on the movement of the right stick
+        //if(Input.GetButton("CameraFix" &)) {
+        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * smoothJazz);
+       
 		transform.LookAt(followedPlayerScript.transform.position, followedPlayerScript.transform.up);
 	}
-
-    Vector2 PositionAlongLine(Vector3 newLookAtPos, Vector3 oldPos, float distance)
-    {
-        return PositionAlongLine(new Vector2(newLookAtPos.x, newLookAtPos.z), new Vector2(oldPos.x, oldPos.z), distance);
-    }
-    Vector2 PositionAlongLine(Vector2 newPlayerPos, Vector2 oldCamPos, float camDist)
-    {
-//        Vector2 line = new Vector2(newLookAtPos.x - oldPos.x, newLookAtPos.z - oldPos.z);
-//        Vector2 normalizedLine = line.normalized;
-//        Vector2 newVec = new Vector2(oldPos.x,oldPos.z) + normalizedLine * (line.magnitude + distance);
-//        Debug.Log(newVec.magnitude);
-
-        var newVec = oldCamPos - newPlayerPos;
-        newVec.Normalize();
-        newVec *= camDist;
-        newVec += newPlayerPos;
-        return newVec;
-//        var newVec = newLookAtPos - distance/Vector3.Distance(oldPos, newLookAtPos) * (oldPos - newLookAtPos);
-//        return newVec;
-
-//        Vector2 newCameraPos = new Vector2();
-//        
-//        float slope = (oldCamPos.y - newPlayerPos.y) / (oldCamPos.x - newPlayerPos.x);
-//        newCameraPos.x = Mathf.Sqrt(camDist / (1 + slope*slope));
-//        newCameraPos.y = newCameraPos.x / slope;
-//        
-//        newCameraPos.x = newCameraPos.x + newPlayerPos.x;
-//        newCameraPos.y = newCameraPos.y + newPlayerPos.y;
-//
-//        Debug.Log(newCameraPos);
-//        return newCameraPos;
-    }
-
-//	void OnDrawGizmos()
-//	{
-//		Gizmos.DrawCube(targetPos, Vector3.one/2);
-//	}
 }

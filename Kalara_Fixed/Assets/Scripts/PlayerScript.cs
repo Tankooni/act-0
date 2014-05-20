@@ -92,19 +92,17 @@ public class PlayerScript : MonoBehaviour
         playerCamera = Camera.main;
     }
 
-    //vector always pointing forward. Would have put it where it would make sense but c# doesnt allow that.
-    static Vector2 forwardVec = new Vector2(0, 1);
     //All input functions should be in Update, dont' be dumb and put them in fixed update
     void Update()
     {
         //find new direction for the player
-        Vector2 rawInput = MathEx.RangeToVector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        Vector3 inputV3 = new Vector3(rawInput.x, 0, rawInput.y);
-        direction = playerCamera.transform.rotation * inputV3;
+        Vector3 rawInput = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        direction = playerCamera.transform.rotation * rawInput;
         direction.y = 0;
+        Debug.Log(rawInput);
 
         //update the rotation and position
-        if(rawInput.x != 0 || rawInput.y != 0) {
+        if(rawInput.x != 0 || rawInput.z != 0) {
             ApplyLookDirection(direction);
             ApplyHorizontalMovement(direction);
         }
