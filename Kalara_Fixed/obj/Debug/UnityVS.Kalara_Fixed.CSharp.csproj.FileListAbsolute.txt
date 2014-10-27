@@ -1,0 +1,9 @@
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Working\Unity\Act-0\Kalara_Fixed\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Working\Unity\Act-0\Kalara_Fixed\obj\Debug\UnityVS.Kalara_Fixed.CSharp.csprojResolveAssemblyReference.cache
+C:\Working\Unity\Act-0\Kalara_Fixed\obj\Debug\Assembly-CSharp.dll
+C:\Working\Unity\Act-0\Kalara_Fixed\obj\Debug\Assembly-CSharp.pdb
