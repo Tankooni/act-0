@@ -9,8 +9,8 @@ public class RigidbodyPlayerController : MonoBehaviour
 
     void Awake()
     {
-        rigidbody.freezeRotation = true;
-        rigidbody.useGravity = false;
+        GetComponent<Rigidbody>().freezeRotation = true;
+        GetComponent<Rigidbody>().useGravity = false;
     }
 
 	void Start()

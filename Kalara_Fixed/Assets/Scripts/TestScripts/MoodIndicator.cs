@@ -25,7 +25,7 @@ public class MoodIndicator : MonoBehaviour
     {
         _pointUpAtForward = Quaternion.FromToRotation(Vector3.up, Vector3.forward);
 
-        _material = renderer.material;
+        _material = GetComponent<Renderer>().material;
         _material.mainTexture = moodIndicators[Mathf.Clamp(Mathf.RoundToInt(enemy.Mood/(100/moodIndicators.Length)), 0, moodIndicators.Length - 1)];
 
         var moodRatio = enemy.Mood/100;

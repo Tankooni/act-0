@@ -12,20 +12,20 @@ public class AnimationSateMachine : MonoBehaviour
 	{
 		//animation.Play("CombatIdle");
 		AnimThings = GetComponent<Animator>();
-		bool j = animation.Play("FarCombatRun");
-		animation["FarCombatAngleLeft"].layer = 1;
-		animation["FarCombatAngleRight"].layer = 1;
-		animation["FarCombatRun"].layer = 1;
-		animation["FarNeutralAngleLeft"].layer = 1;
-		animation["FarNeutralAngleRight"].layer = 1;
-		animation["FarNeutralWalk"].layer = 1;
-		animation["NearCombatAngleLeft"].layer = 1;
-		animation["NearCombatAngleRight"].layer = 1;
-		animation["NearCombatRun"].layer = 1;
-		animation["NearNeutralAngleLeft"].layer = 1;
-		animation["NearNeutralAngleRight"].layer = 1;
-		animation["NearNeutralWalk"].layer = 1;
-        animation["NearAttackStart"].layer = 12;
+		bool j = GetComponent<Animation>().Play("FarCombatRun");
+		GetComponent<Animation>()["FarCombatAngleLeft"].layer = 1;
+		GetComponent<Animation>()["FarCombatAngleRight"].layer = 1;
+		GetComponent<Animation>()["FarCombatRun"].layer = 1;
+		GetComponent<Animation>()["FarNeutralAngleLeft"].layer = 1;
+		GetComponent<Animation>()["FarNeutralAngleRight"].layer = 1;
+		GetComponent<Animation>()["FarNeutralWalk"].layer = 1;
+		GetComponent<Animation>()["NearCombatAngleLeft"].layer = 1;
+		GetComponent<Animation>()["NearCombatAngleRight"].layer = 1;
+		GetComponent<Animation>()["NearCombatRun"].layer = 1;
+		GetComponent<Animation>()["NearNeutralAngleLeft"].layer = 1;
+		GetComponent<Animation>()["NearNeutralAngleRight"].layer = 1;
+		GetComponent<Animation>()["NearNeutralWalk"].layer = 1;
+        GetComponent<Animation>()["NearAttackStart"].layer = 12;
 		print(j);
 	}
 	
