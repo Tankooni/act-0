@@ -1,2 +1,9 @@
 syntax: glob
-Kalara_Fixed/Temp/UnityLockfile
+Obj/*
+Temp/*
+Library/*
+*.suo
+*.user
+*.pidb
+*.userprefs
+Assets/UnityVS*

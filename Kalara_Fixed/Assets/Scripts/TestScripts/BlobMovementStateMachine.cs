@@ -16,7 +16,7 @@ public class BlobMovementStateMachine : MonoBehaviour
             if(IsActive)
             {
                 Transform spawnedObject = (Transform)Instantiate(ActivePrfab, MyTransform.position + MyTransform.up, MyTransform.rotation);
-                spawnedObject.rigidbody.AddForce(MyTransform.up * Random.value * 10f);
+                spawnedObject.GetComponent<Rigidbody>().AddForce(MyTransform.up * Random.value * 10f);
             }
         }
 	}
